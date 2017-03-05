@@ -97,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
     private void toast(String text) {
-        Log.i(TAG, text);
         if (text != null) {
+            Log.i(TAG, text);
             Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
         }
     }
